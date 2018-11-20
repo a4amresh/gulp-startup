@@ -1,0 +1,12 @@
+{
+  "name": "Bayside Group",
+  "short_name": "Bayside",
+  "theme_color": "#121E47",
+  "background_color": "#121E47",
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [],
+  "splash_pages": null
+}
