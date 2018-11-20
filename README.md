@@ -1,2 +1,2 @@
-# gulp-startup
+# Gulp startup
 Project (Html) starter
