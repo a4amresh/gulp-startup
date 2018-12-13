@@ -1,7 +1,7 @@
 {
-  "name": "Bayside",
-  "version": "1.0.0",
-  "description": "",
+  "name": "html5",
+  "version": "1.0.4",
+  "description": "Html5 project startup kit by AK",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
@@ -32,7 +32,8 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
     "gulp-uglifycss": "^1.1.0",
-    "gulp-uglify": "^3.0.1"
+    "rmdir": "^1.2.0"
   }
 }
