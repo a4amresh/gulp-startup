@@ -2,5 +2,6 @@
 **/logs/debug.log
 *.log
 node_modules/
-.ak/
+ak-dest/
 .watchTimeDist
+Docs
