@@ -10,14 +10,14 @@
     "build:prod": "gulp build --env production"
   },
   "keywords": [
-    "Mobile app",
+    "Website",
     "responsive",
     "html5"
   ],
   "author": "Amresh Kumar",
   "license": "GPL",
   "config": {
-    "viewDest": "Docs",
+    "viewDest": "ak-dest",
     "assetsDest": "ak-dest",
     "srcDir": "ak-src",
     "vendors": {
@@ -34,10 +34,16 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
     "gulp-ejs": "^4.1.1",
+    "gulp-environments": "^0.1.2",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
     "node-sass": "^4.12.0"
   }
 }

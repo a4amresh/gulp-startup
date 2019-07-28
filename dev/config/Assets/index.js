@@ -3,17 +3,17 @@ const fs = require('fs');
 const pkg = JSON.parse(fs.readFileSync('./package.json'));
 
 const srcDir = pkg.config.srcDir;
-const verndorsStatics = pkg.config.vendors;
+const vendorsStatics = pkg.config.vendors;
 
 module.exports = {
     Libraries: {
         statics: {
-            fonts: verndorsStatics.fonts,
-            css: verndorsStatics.css,
-            js: verndorsStatics.js,
+            fonts: vendorsStatics.fonts,
+            css: vendorsStatics.css,
+            js: vendorsStatics.js,
         },
-        scss: [srcDir + '/3-vendors/scss/**/*.scss', ],
-        js: [srcDir + '/3-vendors/js/*.js', ]
+        scss: [srcDir + '/3-vendors/scss/**/*.scss'],
+        js: [srcDir + '/3-vendors/js/*.js']
     },
     Project: {
         statics: [srcDir + '/1-static-assets/**/*'],
